@@ -135,6 +135,10 @@
     <Compile Include="PostsPage.xaml.cs">
       <DependentUpon>PostsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RoleInputDialog.xaml.cs">
+      <DependentUpon>RoleInputDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedItemToForegroundConverter.cs" />
     <Compile Include="StringToVisibilityConverter.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UsersPage.xaml.cs">
@@ -169,6 +173,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="PostsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RoleInputDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
